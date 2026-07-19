@@ -3,7 +3,6 @@
 
 {{-- Page content --}}
 @section('content')
-
     <form role="form" action="{{ url('/login') }}" method="POST" autocomplete="{{ (config('auth.login_autocomplete') === true) ? 'on' : 'off'  }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
@@ -29,7 +28,7 @@
                     @endif
 
 
-                    <div class="box login-box">
+                    <div class="box login-box" style="padding:10px;">
                         <div class="box-header with-border">
                             <h1 class="box-title"> {{ trans('auth/general.login_prompt')  }}</h1>
                         </div>
