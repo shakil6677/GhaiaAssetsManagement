@@ -1,3 +1,5 @@
+![snipe-it-by-grok](https://media.licdn.com/dms/image/v2/D4D12AQGm1K4fWRKXEQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720539189174?e=2147483647&v=beta&t=KjJAb7-RIqlFtJ17FkmXMGY2vT2DkP7xFTY8_4iNPso)
+
 ## GHAIA - Asset / Inventory Management System
 
 This is a FOSS project for asset management in IT Operations. Knowing who has which laptop, when it was purchased in order to depreciate it correctly, handling software licenses, etc.
