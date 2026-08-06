@@ -5,7 +5,7 @@
 ])
 
 <!-- start side info-box -->
-<div class="box-header with-border" style="padding-top: 0;">
+<div class="box-header with-border ss" style="padding-top: 0;">
 
     @if (isset($buttons))
         <div class="row hidden-print" style="padding-left: 5px;">
@@ -41,7 +41,7 @@
             @endif
 
                 <a href="{{ $infoPanelObj->getImageUrl($img_path) }}" data-toggle="lightbox" data-type="image">
-                    <img src="{{ $infoPanelObj->getImageUrl($img_path) }}" class="img-responsive img-thumbnail" alt="{{ $infoPanelObj->name }}" style="max-width: 300px !important; max-height: 300px !important;margin-bottom: 10px;">
+                    <img src="{{ $infoPanelObj->getImageUrl($img_path) }}" class="img-responsive img-thumbnail" alt="{{ $infoPanelObj->name }}" style="margin-bottom: 10px;">
             </a>
         </div>
         <br>
